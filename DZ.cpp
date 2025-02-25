@@ -12,9 +12,9 @@ int main()
 	const int col = 4;
 	int arr[row][col];
 
-	std::cout << "Ââåäèòå ïåğâîå ÷èñëî:\n";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã¥Ã°Ã¢Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®:\n";
 	std::cin >> one;
-	std::cout << "Ââåäèòå âòîğîå ÷èñëî:\n";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¢Ã²Ã®Ã°Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®:\n";
 	std::cin >> two;
 	std::cout << "\n";
 	for (int i = 0; i < row; i++)
@@ -22,7 +22,7 @@ int main()
 		for (int j = 0; i < col; j++)
 		{
 			arr[i][j] = one * two;
-			two++;
+			one = one * two;
 		}
 	}
 
@@ -44,9 +44,9 @@ int main()
 	const int cow = 4;
 	int arr2[rol][cow];
 
-	std::cout << "Ââåäèòå ïåğâîå ÷èñëî:\n";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã¥Ã°Ã¢Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®:\n";
 	std::cin >> one1;
-	std::cout << "Ââåäèòå âòîğîå ÷èñëî:\n";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¢Ã²Ã®Ã°Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®:\n";
 	std::cin >> two2;
 	std::cout << "\n";
 	for (int i = 0; i < rol; i++)
@@ -54,7 +54,7 @@ int main()
 		for (int j = 0; i < cow; j++)
 		{
 			arr2[i][j] = one1 + two2;
-			two2++;
+			one1 = one1 * two2;
 		}
 	}
 
