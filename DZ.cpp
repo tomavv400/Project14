@@ -54,7 +54,7 @@ int main()
 		for (int j = 0; i < cow; j++)
 		{
 			arr2[i][j] = one1 + two2;
-			one1 = one1 * two2;
+			one1 = one1 + two2;
 		}
 	}
 
